@@ -67,4 +67,4 @@ RUN chown -R app:app $APP_HOME
 USER code
 
 # run entrypoint.prod.sh
-ENTRYPOINT ["/app/web/entrypoint.prod.sh"]
+ENTRYPOINT ["/app/entrypoint.prod.sh"]
