@@ -41,8 +41,8 @@ RUN mkdir -p /home/code
 RUN addgroup -S app && adduser -S app -G app
 
 # create the appropriate directories
-ENV HOME=/home/code
-ENV APP_HOME=/home/code/web
+ENV HOME=/home/ubuntu/pyapps/dj_apps/docker_djprj1/code
+ENV APP_HOME=/home/ubuntu/pyapps/dj_apps/docker_djprj1/code/web
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 
